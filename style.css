@@ -12,7 +12,7 @@ body {
 
 body {
   background-image: url(images/background.png);
-  background-size: 150%;
+  background-size: 150vh;
 
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -39,7 +39,7 @@ body {
     width: 0;
   }
   to {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -62,7 +62,7 @@ header {
 
   color: beige;
   background-image: url(images/background.png);
-  background-size: 150%;
+  background-size: 150vh;
   opacity: 100%;
   margin: 0px;
   margin-bottom: 0;
@@ -321,7 +321,7 @@ tbody tr:hover {
   background: #19433c;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   header {
     flex-direction: column;
     width: auto;
