@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="nameposter">
+            <h1 style="margin-bottom: 0">Rayan Abdullah Al-Shehri</h1>
+            <h3 style="font-size: 30px; margin-top: 0;">Inspiring Web developer</h3>
+        </div>
+        <div id="rightSide">
+            <nav>
+                <ul style="list-style: none; padding: 0px;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Labs.html">Labs</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <aside>
+            <img style="object-fit: cover;" id="pfp" src="images/personalPicture.png" alt="Profile picture">
+
+            <h2 class="partition">Contact Information</h2>
+
+            <ul id="Info" style="list-style-type: none; padding-left: 0px;">
+                <p><strong>Email: </strong><a href="mailto:RayanARAlshehri@outlook.com">RayanARAlshehri@outlook.com</a>
+                </p>
+                <p><strong>Phone: </strong><a href="tel:+966538676723">+966538676723</a></p>
+            </ul>
+
+            <div style="width: auto;">
+                <a target="_blank" href="https://github.com/RayanNight">
+                    <img id="socialmedia" src="images/Github_Logo.png" alt="GitHub">
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/rayan-ar-alshehri">
+                    <img id="socialmedia" src="images/LinkedIn_Logo.png" alt="LinkedIn">
+                </a>
+            </div>
+        </aside>
+
+        <section>
+            <h2 id="ContactMe" class="partition">Contact Me</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="dee312fd-0ca1-4a4f-905e-5852ccc6068a">
+
+                <label for="name">Name: </label><br>
+                <input type="text" id="name" name="name" autocomplete="name" required><br>
+
+                <label for="email">Email: </label><br>
+                <input type="email" id="email" name="email" autocomplete="email" required><br>
+
+                <label for="message">Message: </label><br>
+                <textarea id="message" name="message" required></textarea><br>
+
+                <label>Message type: </label>
+                <input style="margin-left: 15px;" type="radio" name="message_type" id="inquiry" value="inquiry"
+                    checked="">
+                <label for="inquiry">Inquiry</label>
+                <input style="margin-left: 15px;" type="radio" name="message_type" id="feedback" value="feedback">
+                <label for="feedback">Feedback</label>
+                <br>
+                
+                <input class="form-submit" type="submit" value="Send">
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Rayan Abdullah Al-Shehri - Portfolio</p>
+    </footer>
+</body>
+
+</html>
