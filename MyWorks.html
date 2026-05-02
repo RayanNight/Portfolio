@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWorks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="nameposter">
+            <h1 style="margin-bottom: 0">Rayan Abdullah Al-Shehri</h1>
+            <h3 style="font-size: 30px; margin-top: 0;">Inspiring Web developer</h3>
+        </div>
+        <div id="rightSide">
+            <nav>
+                <ul style="list-style: none; padding: 0px;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Labs.html">Labs</a></li>
+                    <li><a href="MyWorks.html">My Works</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <aside>
+            <img style="object-fit: cover;" id="pfp" src="images/personalPicture.png" alt="Profile picture">
+
+            <h2 class="partition">Quick Links</h2>
+
+            <div id="shrotcutsMenu">
+                <ul style="list-style-type: none; padding-left: 0px;">
+                    <li><a href="#MyWorks">My Works</a></li>
+                </ul>
+            </div>
+
+            <h2 class="partition">Portfolio Links</h2>
+
+            <ul id="Links" style="list-style-type: none; padding-left: 0px;">
+                <p><a href="Documents/Rayan_Abdullah_AlShehri_Resume.pdf" target="_blank">View CV Page</a></p>
+                <p><a href="Contact.html" target="_self">Open Contact Page</a></p>
+                <p><a href="https://github.com/RayanNight" target="_blank">GitHub Profile</a></p>
+            </ul>
+        </aside>
+
+        <section>
+            <h2 id="MyWorks" class="partition">My Works</h2>
+            <div id="workGrid">
+                <div id="workCard">
+                    <span id="badge">JavaScript</span>
+                    <h3>Wordle</h3>
+                    <p>
+                        Interactive word guessing game based on New York Time's Wordle. Score is saved in browser using
+                        localStorage. So that they persist between visits.
+                    </p>
+                    <a href="App1.html">Give it a try</a>
+                </div>
+
+                <div id="workCard">
+                    <span id="badge">JavaScript + API</span>
+                    <h3>fetch(Joke)</h3>
+                    <p>
+                        Uses the JokeAPI to serve up clean, lighthearted humor from the Programming categorie. Put the on a card. Flip the card, read the fetched joke.
+                    </p>
+                    <a href="App2.html">Hear it out</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Rayan Abdullah Al-Shehri - Portfolio</p>
+    </footer>
+</body>
+
+</html>

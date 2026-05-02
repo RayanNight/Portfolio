@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="nameposter">
+            <h1 style="margin-bottom: 0">Rayan Abdullah Al-Shehri</h1>
+            <h3 style="font-size: 30px; margin-top: 0;">Inspiring Web developer</h3>
+        </div>
+        <div id="rightSide">
+            <nav>
+                <ul style="list-style: none; padding: 0px;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Labs.html">Labs</a></li>
+                    <li><a href="MyWorks.html">My Works</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <aside>
+            <div id="shrotcutsMenu">
+                <ul style="list-style-type: none; padding-left: 0px;">
+                    <li>
+                        <p style="text-align: center; font-size: 20px;">
+                            Your goal is to find the secret word.<br><br>
+                            Enter any 4 letters you can think of.<br>
+                        </p>
+                        <p style="text-align: justify; ">
+                            🟩 Mean right letter right place.<br>
+                            🟨 Mean right letter wrong place.<br>
+                        <p style="font-size: 20px;">
+                            Each win and lose is stored in localStorage, so it persist between visits<br>
+                        </p>
+                    </li>
+
+                    <h2 class="partition">Portfolio Links</h2>
+                    <li><a href="MyWorks.html">← My Works</a></li>
+                    <li><a href="App2.html">Try fetch(Joke)</a></li>
+                </ul>
+
+            </div>
+        </aside>
+
+
+
+        <section>
+            <h2 class="partition">Wordle</h2>
+            <div id="container">
+
+                <h2 id="wins">Wins: 0 | Loses: 0</h2>
+
+
+                <input type="text" id="wordInput" maxlength="4" placeholder="Enter 4-letter word" autocomplete="off">
+                <button id="submitBtn">Submit</button>
+                <button id="resetBtn">New Game</button>
+                <button id="delete">delete stats</button>
+
+                <h2 id="hint"></h2>
+
+                <div id="board"></div>
+
+                <p style="font-size: 15px; color: bisque;">you can cheat the secret word in console</p>
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Rayan Abdullah Al-Shehri - Portfolio</p>
+    </footer>
+</body>
+
+<script src="App1.js"></script>
+
+</html>
